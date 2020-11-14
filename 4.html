@@ -4,15 +4,51 @@
   <head>
     <meta charset="utf-8">
     <title>WEB-1</title>
+    <style>
+      body {
+        margin:0px;
+      }
+      h1 {
+        font-size:45px;
+        text-align:center;
+        border-bottom: 2px solid blue;
+        padding:10px;
+        padding-top:0px;
+        margin:0px;
+      }
+      ol {
+        border-right:2px solid blue;
+        width:150px;
+        margin:0px;
+        padding:20px;
+        padding-left:30px;
+      }
+      ol,li{
+        color:skyblue;
+        text-decoration:none;
+      }
+      a {
+        color:skyblue;
+      }
+      #grid{
+        display: grid;
+        grid-template-columns: 200px 1fr;
+      }
+      #article{
+        padding-left:25px;
+      }
+    </style>
   </head>
   <body>
-  <h1><a href="1.html">Games</a></h1>
+    <h1><a href="1.html" class="home">Popular Games</a></h1>
+    <div id="grid">
   <ol>
-    <li><a href="2.html">League of legend</a></li>
-    <li><a href="3.html">Sudden Attack</a></li>
+    <li><a href="2.html"class="saw">League of legend</a></li>
+    <li><a href="3.html"class="saw">Sudden Attack</a></li>
     <li><a href="4.html">Battle ground</a></li>
   </ol>
-  <h2><a hreflang="https://pubg.game.daum.net/pubg/index.daum" target="_blank">Battle ground</a></h2>
+  <div id="article">
+  <h2><a href="https://pubg.game.daum.net/pubg/index.daum" target="_blank" class="title">Battle ground</a></h2>
   <img src="4.jpg" width="50%;">
   <br>
   <ul>
@@ -22,5 +58,7 @@
      정식 명칭은 ‘플레이어언노운즈 배틀그라운드(PUBG: PlayerUnknown’s Battlegrounds)’이고 흔히  배틀그라운드라고 부른다.<br>
 [네이버 지식백과] 배틀그라운드 (시사상식사전, pmg 지식엔진연구소)
 </p>
+</div>
+</div>
   </body>
 </html>

@@ -5,17 +5,57 @@
     <meta charset="utf-8">
     <title>WEB-1</title>
   </head>
+  <style>
+    body {
+      margin:0px;
+    }
+    h1 {
+      font-size:45px;
+      text-align:center;
+      border-bottom: 2px solid blue;
+      padding:10px;
+      padding-top:0px;
+      margin:0px;
+    }
+    ol {
+      border-right:2px solid blue;
+      width:150px;
+      margin:0px;
+      padding:20px;
+      padding-left:30px;
+    }
+    ol,li{
+      color:skyblue;
+      text-decoration:none;
+    }
+    a {
+      color:skyblue;
+    }
+    #grid{
+      display: grid;
+      grid-template-columns: 200px 1fr;
+    }
+    #article{
+      padding-left:25px;
+    }
+  </style>
   <body>
-  <h1>Games</h1>
-  <ol>
-    <li><a href="2.html">League of legend</a></li>
-    <li><a href="3.html">Sudden Attack</a></li>
-    <li><a href="4.html">Battle ground</a></li>
-  </ol>
-  <br>
-  <h2>Hello!</h2>
-  <p>There is many games in the world.</p>
-  <p>let's take a look some games!</p>
-  <p>the three games are <strong><u>most popular games</u></strong> in Korea.</p>
+  <h1 style="color:blue">Popular Games</h1>
+    <div id="grid">
+        <ol>
+          <li><a href="2.html">League of legend</a></li>
+          <li><a href="3.html">Sudden Attack</a></li>
+          <li><a href="4.html">Battle ground</a></li>
+        </ol>
+            <div id="article">
+            <h2>Hello!</h2>
+            <p>There is many games in the world.<br>
+            let's take a look some games!<br>
+            the three games are <strong>most popular games</strong> in Korea.</p>
+            <p>안녕하세요!</p>
+            <p>몇가지 게임을 알아봐요!</p>
+            <p>이 3가지 게임은 한국에서 <strong>가장 유명한</strong> 게임들입니다.</p>
+            </div>
+    </div>
   </body>
 </html>
